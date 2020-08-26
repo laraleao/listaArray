@@ -20,4 +20,26 @@ for (j = 0; j < 4; j++) {
   var multiplicacao = numeros[j] * numeroMaior;
   soma += multiplicacao;
 }
-alert(soma);
+alert(`A soma da multiplicação dos menores númerios pelo maior é ${soma}`);
+
+// corrigido em aula
+
+// let numeros = [];
+// let cont = 0;
+
+// while (cont <= 5) {
+//   numeros.push(Number(prompt("Digite 5 números:")));
+//   cont++;
+// }
+
+// function comparaNumeros(a, b) {
+//   return a - b;
+// }
+// numeros.sort(comparaNumeros);
+
+// let maior = numeros.pop();
+
+// for(i = 0; i < numeros.length; i++)){
+//   soma += numeros[i] * maior;
+// }
+// alert(`A soma da multiplicação dos menores númerios pelo maior é ${soma}`);

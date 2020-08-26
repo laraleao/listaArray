@@ -24,7 +24,7 @@ for (i = 0; i < anosAlistamento.length; i++) {
   // salvar a resposta do prompt e seguir do 2000 ao 2009
 
   //  relatar as respostas
-  var resposta = prompt(`Houve alistamento no ano ${anosAlistamento[i]}`);
+  var resposta = prompt(`Houve alistamento no ano ${anosAlistamento[i]}?`);
 
   //   para sabermos a respeito do último alistamento
   if (resposta == "S") {
@@ -36,3 +36,20 @@ if (ultimoAlistamento == 0) {
 } else {
   alert(`O último alistamento foi em ${ultimoAlistamento}`);
 }
+
+//  corrigido em aula
+
+// let anos = [];
+
+// // de 2000 à 2009
+// for (let ano = 2000; ano < 2010; ano++) {
+//   anos.push(prompt`Houve alistamento no ano ${ano}? (S/N)`);
+// }
+
+// let ultimoAno = anos.lastIndexOf("S");
+
+// if (ultimoAno === -1) {
+//   alert("Não houve alistamento nos últimos 10 anos!");
+// } else {
+//   alert(`O último alistamento foi em 200${ultimoAno}`);
+// }

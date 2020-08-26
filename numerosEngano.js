@@ -11,3 +11,20 @@ for (i = 0; i < 15; i++) {
   }
   numerosEngano.pop();
 }
+
+// corrigido em aula
+
+// let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+// for (i = 0; i < 10; i++) {
+//   numeros.pop();
+// }
+// alert(`A lista corrigida é ${numeros}`);
+
+// correção Raphael
+
+// function remove() {
+//   let lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+//   for (lista.length; lista.length > 5; lista.pop()) {}
+//   return lista;
+// }

@@ -10,3 +10,17 @@ for (i = 0; i < 10; i++) {
   });
 }
 alert(numeros);
+
+// corrigido em aula
+
+// let numeros = [];
+
+// do {
+//   numeros.push(Number(prompt("Digite 10 números:")));
+// } while (numeros.length != 10);
+
+// function compararNumeros(a, b) {
+//   return a - b;
+// }
+// numeros.sort(compararNumeros);
+// alert(numeros);
